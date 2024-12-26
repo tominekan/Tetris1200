@@ -29,7 +29,10 @@ bin/
 .DS_Store
 
 
-# Huge files lol
+# Custom shii
 *.jar
 *.dmg
 *.exe
+*.idea
+Tetris1200.iml
+META-INF
