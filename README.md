@@ -3,7 +3,7 @@
 I built this for my final project in CIS 1200, but polished it a bit more over the 
 following winter break.
 ## Installation
-- Because I have a Mac, I there is a MacOS .dmg file for use. Once I get to
+- Because I have a Mac, I have a MacOS .dmg file for use. Once I get to
 the computer labs in school I'll create Windows and Linux binaries.
 
 
