@@ -40,4 +40,5 @@ the computer labs in school I'll create Windows and Linux binaries.
 - [ ] Do deeper level refactoring (already fixed glaring inconsistencies)
 - [ ] Create exe for windows apps
 - [ ] Work on better solution for the app icon
-- [ ] Fix FileIO resistance on macos
+- [x] Fix FileIO resistance on MacOS
+- [x] Fully switched from File -> getResource()

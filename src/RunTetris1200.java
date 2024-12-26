@@ -24,7 +24,9 @@ public class RunTetris1200 implements Runnable {
 
 
     public void run() {
-        System.out.println(savePath);
+        // Create a ~/Tetris1200 directory
+        new File(Paths.get(System.getProperty("user.home"), "Tetris1200").toString()).mkdirs();
+        // Initialize Game
         final JFrame frame = new JFrame("Tetris 1200");
         frame.setLocation(100, 100);
 
@@ -328,7 +330,6 @@ public class RunTetris1200 implements Runnable {
 
     public Font getFont(int size) {
         try {
-            //File fontFile = new File("./assets/gameFont/04B_30__.ttf");
             ClassLoader loader = getClass().getClassLoader();
             Font ourFont = Font.createFont(Font.TRUETYPE_FONT, loader.getResourceAsStream("04B_30__.ttf"));
             return ourFont.deriveFont((float) size);
