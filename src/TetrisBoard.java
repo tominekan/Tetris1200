@@ -226,7 +226,7 @@ public class TetrisBoard extends JPanel {
         gameState.saveGameState(this.pathToSave);
         try {
             ClassLoader loader = getClass().getClassLoader();
-            Font ourFont = Font.createFont(Font.TRUETYPE_FONT, loader.getResourceAsStream("04B_30__.ttf"));
+            Font ourFont = Font.createFont(Font.TRUETYPE_FONT, loader.getResourceAsStream("04B_30__.TTF"));
             if (size.equals("LARGE")) {
                 Font finalFont = ourFont.deriveFont((float) 36);
                 g.setFont(finalFont);

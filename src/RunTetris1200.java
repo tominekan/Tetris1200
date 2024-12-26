@@ -331,7 +331,7 @@ public class RunTetris1200 implements Runnable {
     public Font getFont(int size) {
         try {
             ClassLoader loader = getClass().getClassLoader();
-            Font ourFont = Font.createFont(Font.TRUETYPE_FONT, loader.getResourceAsStream("04B_30__.ttf"));
+            Font ourFont = Font.createFont(Font.TRUETYPE_FONT, loader.getResourceAsStream("04B_30__.TTF"));
             return ourFont.deriveFont((float) size);
         } catch (Exception e) {
             System.out.println(e.getMessage());

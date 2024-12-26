@@ -31,3 +31,5 @@ bin/
 
 # Huge files lol
 *.jar
+*.dmg
+*.exe
